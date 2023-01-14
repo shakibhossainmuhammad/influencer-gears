@@ -8,6 +8,7 @@ body {
 * {
   margin: 0;
   padding: 0;
+  /* border: 1px solid red; */
 }
 .navbar {
   display: flex;
@@ -38,9 +39,13 @@ body {
 }
 
 /* banner */
+.banner {
+  margin: 70px 120px;
+}
 .banner-items {
   display: flex;
-  margin: 70px 120px;
+  gap: 150px;
+  /* margin: 70px 120px; */
 }
 
 .banner-title {
@@ -75,6 +80,9 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+.img-items img {
+  object-position: top right;
 }
 
 /* company logo section */
