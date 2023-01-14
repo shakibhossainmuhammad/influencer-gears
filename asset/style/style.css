@@ -1,0 +1,86 @@
+/* google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+body {
+  font-family: 'Poppins', sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 70px 120px;
+}
+
+.logo-title {
+  font-weight: 700;
+  font-size: 24px;
+  color: #3a3a3a;
+}
+
+.item {
+  list-style: none;
+  display: flex;
+}
+
+.item li {
+  margin-left: 34px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #3a3a3a;
+}
+
+.fa-cart-shopping.empty {
+  font-size: 29px;
+}
+
+/* banner */
+.banner-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 70px 120px;
+}
+
+.banner-title {
+  font-weight: 700;
+  font-size: 52px;
+  color: #3a3a3a;
+  margin-bottom: 16px;
+}
+.banner-info {
+  font-weight: 600;
+  font-size: 16px;
+  color: #3a3a3a;
+  margin-bottom: 16px;
+}
+
+.btn {
+  border: 0;
+  padding: 10px 24px;
+  background: #e02c6d;
+  border-radius: 41px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.fa-arrow-right {
+  margin-left: 10px;
+}
+
+.img-items {
+  background-image: url('../images/Circle\ design.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* company logo section */
+.com-logos {
+  display: flex;
+  justify-content: center;
+  gap: 61px;
+  margin: 60px 0;
+}
