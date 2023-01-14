@@ -39,13 +39,13 @@ body {
 }
 
 /* banner */
-.banner {
+/* .banner {
   margin: 70px 120px;
-}
+} */
 .banner-items {
   display: flex;
-  gap: 300px;
-  /* margin: 70px 120px; */
+  justify-content: space-between;
+  margin: 70px 120px;
 }
 
 .banner-title {
